@@ -158,13 +158,13 @@ if __name__ ==  "__main__":
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
 
     if nowHour == 11:
-        step = '10000-12000'
+        step = '5000-6000'
         print('1')
     elif nowHour == 17:
-        step = '15000-17000'
+        step = '10000-11000'
         print('2')
     elif nowHour == 19:
-        step = '20000-22000'
+        step = '10000-11000'
         print('3')
     else:
         step = input()
